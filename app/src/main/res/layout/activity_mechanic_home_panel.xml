@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="vertical"
+    android:background="@drawable/road3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MechanicHomePanel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif-monospace"
+            android:text="UPDATE AND DELETE MECHANIC"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/style"
+            android:fontFamily="serif-monospace"
+            android:text="SEARCH DETAILS"
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="297dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+
+            android:hint="  Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="297dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+
+            android:hint="  Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="297dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   Password"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="291dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   Locality"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   Shopname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="301dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   Additional Description"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="303dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   Contact"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="299dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   latitude"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="299dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:ems="10"
+
+            android:hint="   longitude"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:text="Feedback From User"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"
+
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/style"
+                android:fontFamily="serif-monospace"
+                android:text="Update"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="70dp"
+
+                android:background="@drawable/style"
+                android:fontFamily="serif-monospace"
+                android:text="Delete"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/road3"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:text="Write Your Precious Feedback"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:ems="10"
+        android:background="@drawable/style"
+android:hint=" Write your feedback here..."
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName" />
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/button11"
+        android:layout_width="340dp"
+
+        android:layout_height="127dp"
+        android:layout_marginLeft="50dp"
+        android:text="SUBMIT FEEDBACK"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:sub_btn_background="@color/black"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="@color/black"
+        app:sub_btn_ripple_color="@color/black"
+        app:sub_btn_tick_color="@color/white"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+</LinearLayout>

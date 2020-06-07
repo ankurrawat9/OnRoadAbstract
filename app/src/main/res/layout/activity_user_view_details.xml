@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road3"
+   >
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:height="50dp"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:height="50dp"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:height="50dp"
+        android:text="Additional Details by the Mechanic :"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:height="50dp"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+
+<Button
+    android:layout_width="match_parent"
+ android:id="@+id/button1"
+android:background="@drawable/style2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:textColor="#fff"
+    android:text="Call Mechanic"
+    android:layout_height="wrap_content"
+></Button>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button2"
+        android:background="@drawable/style2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:text="Send a Email"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button3"
+        android:background="@drawable/style2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:text="find on map"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button4"
+        android:background="@drawable/style2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:text="give feedback"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button5"
+        android:background="@drawable/style2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:text="logout"
+        android:layout_height="wrap_content"
+        ></Button>
+
+        </LinearLayout>
+
+
+
+
